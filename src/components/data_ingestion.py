@@ -52,6 +52,5 @@ class DataIngestion:
 
 
 if __name__ == "__main__":
-    # config = DataIngestionConfig()
-    # print(os.path.dirname(os.path.join(config.raw_data_path)))
-    pass
+    obj = DataIngestion()
+    obj.initiate_data_ingestion()
